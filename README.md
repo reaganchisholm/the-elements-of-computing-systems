@@ -2,4 +2,5 @@ This repo contains information and project files from the book [The Elements of 
 
 # Outline
 - Chapter 1: Boolean Logic
+ - Logic Gates
 - Chapter 2: Boolean Arithmetic
