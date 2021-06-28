@@ -14,3 +14,11 @@
 - A binary system with n digits can generate a set of 2<sub>n</sub> different bit patterns
 - There are a few different coding schemes that implement signed numbers in different ways, but the most common today is called the _2's complement_ method, also known as the _radix complement_
 - The first number is the sign number, which determines if its positive or negative, hence the name _Signed Binary Numbers_
+
+### Adders
+- Half-adder: designed to add two bits
+- Full-adder: designed to add three bits
+- Adder: designed to add two n-bit numbers
+
+### The Arithmetic Logic Unit (ALU)
+In computing, an ALU is a combitional digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
