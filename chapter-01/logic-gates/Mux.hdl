@@ -20,7 +20,7 @@ CHIP Mux {
     PARTS:
     // create nsel
     Not(in=sel, out=nsel);
-    // sel = nsel
+    // sel != nsel
     // 0 = 1 
 
     And(a=a, b=nsel, out=c);
