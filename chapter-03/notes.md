@@ -15,3 +15,10 @@
 - The current clock phase (tick or tock) is represented by binary signal.
 - The clock broadcasts to all the sequential chips throughout the computer platform.
 
+- Registers are built from flip-flops
+- You can combine abunch of registers to create RAM (Random Access Memory)
+
+## Appendix A.7: Sequential Chips
+- Computer chips are either combinational or sequential (also called clocked).
+- Combinational chips are instantaneous.
+- Sequential chips are clock-regulated.
