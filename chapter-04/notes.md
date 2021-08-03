@@ -5,3 +5,4 @@
 
 ## Questions before starting
 - How is machine code handled? how is it passed to the chip?
+    - Assembly code is run through an assembler and translated to binary that can be interpreted by a CPU as specific instructions.
