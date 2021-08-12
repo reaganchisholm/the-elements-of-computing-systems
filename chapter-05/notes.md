@@ -10,4 +10,5 @@
     - includes a CPU that interacts with memory, receiving data from some input device and sends it out to some output device.
     - the memory includes both the data that the computer manipulates, but also the instructions that tell the computer what to do
 
+- CPU will usually contain a Control Unit (CU) which is repsonsible for decoding instructions and figuring which instruction to fetch and execute next
 - Optimization takes a huge role in industrial-strength computers.
