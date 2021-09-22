@@ -29,13 +29,16 @@ CHIP Memory {
     PARTS:
         // Determine if loading for io or data
         DMux(in=load, sel=address[14], a=dataLoad, b=ioLoad);
-        Not(in=address[13], out=isScreen); // Check if its screen
+
+        // Check if its screen
+        Not(in=address[13], out=isScreen);
         And(a=ioLoad, b=isScreen, out=screenLoad);
 
+        // Load data into proper memory
         RAM16K(in=in, load=dataLoad, address=address[0..13], out=RAMout);
         Screen(in=in, load=screenLoad, address=address[0..12], out=screenOut);
         Keyboard(out=KBDout);
 
+        // Update what comes out
         Mux4Way16(a=RAMout, b=RAMout, c=screenOut, d=KBDout, sel=address[13..14], out=out);
-
 }
